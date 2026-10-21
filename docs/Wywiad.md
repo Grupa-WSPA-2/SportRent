@@ -111,80 +111,52 @@ Ustalona data, do której klient powinien oddać wypożyczony sprzęt.
 
 ---
 
-## 6. Zauważone problemy i sprzeczności
+## Pytania i odpowiedzi
 
-### Problem 1. Dostępność sprzętu
+1. Jakiego sprzętu sportowego dotyczy wypożyczalnia?
+   - Odpowiedź: Do uzupełnienia.
 
-Sprzęt może znajdować się w wypożyczalni, ale być już wypożyczony. Należy ustalić, w jaki sposób system będzie określał jego dostępność.
+2. Jak klient sprawdza dostępność sprzętu?
+   - Odpowiedź: Do uzupełnienia.
 
-### Problem 2. Rezerwacja i wypożyczenie
+3. Czy klient potrzebuje możliwości rezerwacji sprzętu?
+   - Odpowiedź: Do uzupełnienia.
 
-Rezerwacja nie oznacza, że klient odebrał już sprzęt. Należy ustalić, czy system będzie obsługiwał oba procesy.
+4. Jakie informacje o sprzęcie powinny być dostępne?
+   - Odpowiedź: Do uzupełnienia.
 
-### Problem 3. Uszkodzony sprzęt
+5. Jak powinien wyglądać proces wypożyczenia?
+   - Odpowiedź: Do uzupełnienia.
 
-Sprzęt może zostać zwrócony w złym stanie i nie nadawać się do kolejnego wypożyczenia. Trzeba ustalić sposób rejestrowania uszkodzeń.
+6. Jak powinien wyglądać proces zwrotu?
+   - Odpowiedź: Do uzupełnienia.
 
----
+7. Jakie dane klienta należy zapisywać?
+   - Odpowiedź: Do uzupełnienia.
 
-## 7. Otwarte pytania
+8. Czy należy zapisywać termin zwrotu?
+   - Odpowiedź: Do uzupełnienia.
 
-### Q-01
+9. Jak pracownik powinien zarządzać sprzętem?
+   - Odpowiedź: Do uzupełnienia.
 
-**Pytanie:** Czy klient musi posiadać konto, aby wypożyczyć sprzęt?
+10. Jak należy rejestrować uszkodzenia sprzętu?
+    - Odpowiedź: Do uzupełnienia.
 
-**Właściciel:** Nazar Ostapenko  
-**Status:** Otwarte
+11. Czy klient powinien widzieć cenę wypożyczenia?
+    - Odpowiedź: Do uzupełnienia.
 
-### Q-02
+12. Czy wypożyczenie wymaga kaucji?
+    - Odpowiedź: Do uzupełnienia.
 
-**Pytanie:** Czy system powinien automatycznie naliczać opłaty za opóźniony zwrot?
+13. Czy system powinien przechowywać historię wypożyczeń?
+    - Odpowiedź: Do uzupełnienia.
 
-**Właściciel:** Bohdan Poderiako  
-**Status:** Otwarte
+14. Czy system powinien przypominać o terminie zwrotu?
+    - Odpowiedź: Do uzupełnienia.
 
-### Q-03
+15. Jakie informacje lub raporty są potrzebne pracownikowi?
+    - Odpowiedź: Do uzupełnienia.
 
-**Pytanie:** Czy klient powinien móc samodzielnie rezerwować sprzęt przez system?
-
-**Właściciel:** Kyrylo Skliarov  
-**Status:** Otwarte
-
-### Q-04
-
-**Pytanie:** Jak należy postępować w przypadku zagubienia lub uszkodzenia sprzętu?
-
-**Właściciel:** Rostyslav Svistelnytskyi  
-**Status:** Otwarte
-
-### Q-05
-
-**Pytanie:** Czy system powinien wysyłać przypomnienia o terminie zwrotu?
-
-**Właściciel:** Andriy Rushchak  
-**Status:** Otwarte
-
----
-
-## 8. Wnioski zespołu
-
-1. System SportRent powinien ułatwiać sprawdzanie dostępności sprzętu sportowego.
-2. Ważną funkcją systemu będzie obsługa wypożyczeń i zwrotów.
-3. Należy określić uprawnienia klientów, pracowników i administratora.
-4. Trzeba ustalić zasady obsługi opóźnionych zwrotów, uszkodzeń i rezerwacji.
-5. Zebrane informacje należy wykorzystać do uzupełnienia słownika dziedzinowego i wymagań systemu.
-
----
-
-## 9. Dalsze działania
-
-- [ ] Uzupełnić dokument o rzeczywiste odpowiedzi klienta.
-- [ ] Zastąpić przykładowe cytaty prawdziwymi wypowiedziami.
-- [ ] Zaktualizować słownik w pliku `docs/02-slownik.md`.
-- [ ] Uzupełnić potrzeby w pliku `docs/03-wymagania.md`.
-- [ ] Utworzyć Issues dla nierozstrzygniętych pytań.
-- [ ] Przypisać każde zadanie do konkretnego członka zespołu.
-
----
-
-**Status dokumentu:** Wersja robocza — do uzupełnienia po przeprowadzeniu wywiadu.
+## Wnioski
+Wnioski i potrzeby klienta zostaną uzupełnione na podstawie przeprowadzonego wywiadu.
