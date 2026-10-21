@@ -1,4 +1,4 @@
-KARTA PROJEKTU — WERSJA 0.1 
+ KARTA PROJEKTU — WERSJA 0.1 
 
 1. Podstawowe informacje 
 
