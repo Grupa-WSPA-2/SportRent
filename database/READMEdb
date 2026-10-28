@@ -1,0 +1,17 @@
+Folder przeznaczony na pliki związane z bazą danych systemu SportRent.
+
+Planowana technologia:
+- PostgreSQL
+
+Główne dane przechowywane w bazie:
+- Użytkownicy
+- Sprzęt sportowy
+- Kategorie sprzętu
+- Wypożyczenia
+- Zwroty
+
+Główne zadania bazy danych:
+- Przechowywanie informacji o użytkownikach i sprzęcie
+- Zapisywanie danych dotyczących wypożyczeń i zwrotów
+- Przechowywanie aktualnego statusu sprzętu
+- Zapewnienie spójności danych
