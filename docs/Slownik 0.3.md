@@ -1,7 +1,7 @@
 # Słownik SportRent — wersja 0.3
 ## 1. Cel słownika
 
-Celem słownika jest ujednolicenie terminologii wykorzystywanej podczas analizy wymagań, projektowania, implementacji i testowania systemu SportRent.
+Celem słownika jest ujednolicenie terminologii wykorzystywanej podczas analizy wymagań, projektowania, implementacji i testowania systemu SportRent..
 
 ## 2. Lista pojęć
 
