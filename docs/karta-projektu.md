@@ -13,7 +13,7 @@
 | Nazar Ostapenko | Koordynator | 
 | Bohdan Poderiako | Baza danych / Analiza wymagań |
 | Kyrylo Skliarov | Backend |
-| Andriy Rushchak | Frontend / UI/UX | Andrusha0500 |
+| Andriy Rushchak | Frontend / UI/UX | 
 | Rostyslav Svistelnytskyi | Testowanie |
 
 ## 2. Problem
