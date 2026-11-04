@@ -1,6 +1,6 @@
 # Wymagania systemu SportRent
 
-**Wersja:** 0.3
+**Wersja:** 0.2
 
 ## 1. Lista potrzeb klienta
 
