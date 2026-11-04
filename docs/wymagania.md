@@ -17,7 +17,18 @@
 | N-09 | Użytkownik potrzebuje łatwego i zrozumiałego interfejsu. | Założenie zespołu |
 | N-10 | Użytkownik potrzebuje ochrony swoich danych. | Założenie zespołu |
 
-## 2. Wymagania funkcjonalne (FR)
+
+## 2. Wymagania biznesowe (BR)
+
+| ID | Wymaganie biznesowe | Cel |
+|---|---|---|
+| BR-01 | System powinien usprawnić proces wypożyczania sprzętu sportowego. | Skrócenie czasu obsługi klienta. |
+| BR-02 | System powinien centralizować informacje o sprzęcie sportowym. | Ułatwienie zarządzania sprzętem. |
+| BR-03 | System powinien poprawić kontrolę dostępności sprzętu. | Ograniczenie pomyłek przy wypożyczeniach. |
+| BR-04 | System powinien umożliwiać prowadzenie historii wypożyczeń i zwrotów. | Ułatwienie kontroli operacji. |
+| BR-05 | System powinien ograniczyć błędy związane z ręcznym zapisywaniem danych. | Poprawa dokładności informacji. |
+
+## 3. Wymagania funkcjonalne (FR)
 
 | ID | Wymaganie | Potrzeba | Priorytet (MoSCoW) |
 |---|---|---|---|
@@ -37,7 +48,7 @@
 | FR-14 | System powinien umożliwiać przeglądanie historii wypożyczeń. | N-08 | Should |
 | FR-15 | System powinien umożliwiać pracownikowi przeglądanie aktualnych wypożyczeń. | N-04, N-06 | Must |
 
-## 3. Wymagania niefunkcjonalne (NFR)
+## 4. Wymagania niefunkcjonalne (NFR)
 
 | ID | Wymaganie | Potrzeba | Charakterystyka ISO/IEC 25010 |
 |---|---|---|---|
@@ -50,7 +61,7 @@
 | NFR-07 | Kod i dokumentacja powinny być uporządkowane, aby ułatwić dalszy rozwój systemu. | N-09 | Łatwość utrzymania |
 | NFR-08 | System powinien umożliwiać regularne tworzenie kopii zapasowych danych. | N-10 | Niezawodność |
 
-## 4. Uwagi
+## 5. Uwagi
 
 Lista potrzeb i wymagań jest wstępna. Należy ją zweryfikować na podstawie wywiadu z klientem oraz decyzji prowadzącego.
 
