@@ -48,7 +48,106 @@
 | FR-14 | System powinien umożliwiać przeglądanie historii wypożyczeń. | N-08 | Should |
 | FR-15 | System powinien umożliwiać pracownikowi przeglądanie aktualnych wypożyczeń. | N-04, N-06 | Must |
 
-## 4. Wymagania niefunkcjonalne (NFR)
+
+## 4. Kryteria akceptacji (GWT)
+
+### FR-01 — Wyświetlanie dostępnego sprzętu
+
+**Given:** Użytkownik otwiera listę sprzętu w systemie.
+
+**When:** System pobiera aktualne dane o sprzęcie.
+
+**Then:** System wyświetla sprzęt, którego status wskazuje na dostępność.
+
+### FR-03 — Wyświetlanie szczegółów sprzętu
+
+**Given:** Użytkownik wybiera sprzęt z listy.
+
+**When:** System otwiera szczegóły wybranego elementu.
+
+**Then:** System wyświetla informacje o sprzęcie.
+
+### FR-04 — Wyświetlanie ceny wypożyczenia
+
+**Given:** Wybrany sprzęt ma określoną cenę wypożyczenia.
+
+**When:** Użytkownik przegląda szczegóły sprzętu.
+
+**Then:** System wyświetla cenę wypożyczenia.
+
+### FR-05 — Dodawanie sprzętu
+
+**Given:** Pracownik jest zalogowany do systemu.
+
+**When:** Pracownik wprowadza wymagane dane nowego sprzętu i zapisuje formularz.
+
+**Then:** System zapisuje sprzęt i dodaje go do listy.
+
+### FR-06 — Edycja danych sprzętu
+
+**Given:** Pracownik jest zalogowany i wybrał istniejący sprzęt.
+
+**When:** Pracownik zmienia dane i zapisuje formularz.
+
+**Then:** System aktualizuje dane sprzętu.
+
+### FR-07 — Zmiana statusu sprzętu
+
+**Given:** Pracownik jest zalogowany i wybrał sprzęt.
+
+**When:** Pracownik zmienia jego status.
+
+**Then:** System zapisuje nowy status sprzętu.
+
+### FR-08 — Rejestrowanie wypożyczenia
+
+**Given:** Pracownik jest zalogowany i wybrany sprzęt jest dostępny.
+
+**When:** Pracownik wprowadza dane wypożyczenia i zatwierdza operację.
+
+**Then:** System zapisuje wypożyczenie i aktualizuje status sprzętu.
+
+### FR-09 — Zapisywanie daty rozpoczęcia wypożyczenia
+
+**Given:** Pracownik rejestruje nowe wypożyczenie.
+
+**When:** Wprowadza datę rozpoczęcia wypożyczenia.
+
+**Then:** System zapisuje datę w danych wypożyczenia.
+
+### FR-10 — Zapisywanie planowanego terminu zwrotu
+
+**Given:** Pracownik rejestruje wypożyczenie.
+
+**When:** Wprowadza planowany termin zwrotu.
+
+**Then:** System zapisuje termin zwrotu.
+
+### FR-11 — Rejestrowanie zwrotu sprzętu
+
+**Given:** Pracownik jest zalogowany i sprzęt został wypożyczony.
+
+**When:** Pracownik rejestruje zwrot sprzętu.
+
+**Then:** System zapisuje zwrot i aktualizuje status wypożyczenia.
+
+### FR-12 — Aktualizacja dostępności po zwrocie
+
+**Given:** Sprzęt został zwrócony i jego stan pozwala na ponowne wypożyczenie.
+
+**When:** Pracownik zatwierdza zwrot.
+
+**Then:** System aktualizuje status sprzętu na dostępny.
+
+### FR-15 — Przeglądanie aktualnych wypożyczeń
+
+**Given:** Pracownik jest zalogowany do systemu.
+
+**When:** Otwiera listę aktualnych wypożyczeń.
+
+**Then:** System wyświetla wypożyczenia, które nie zostały zakończone.
+
+## 5. Wymagania niefunkcjonalne (NFR)
 
 | ID | Wymaganie | Potrzeba | Charakterystyka ISO/IEC 25010 |
 |---|---|---|---|
@@ -61,7 +160,7 @@
 | NFR-07 | Kod i dokumentacja powinny być uporządkowane, aby ułatwić dalszy rozwój systemu. | N-09 | Łatwość utrzymania |
 | NFR-08 | System powinien umożliwiać regularne tworzenie kopii zapasowych danych. | N-10 | Niezawodność |
 
-## 5. Uwagi
+## 6. Uwagi
 
 Lista potrzeb i wymagań jest wstępna. Należy ją zweryfikować na podstawie wywiadu z klientem oraz decyzji prowadzącego.
 
