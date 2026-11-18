@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="1120" viewBox="0 0 1660 1120">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+  </marker>
+  <style>
+    .title { font: 700 27px Arial, sans-serif; fill:#0f172a; }
+    .subtitle { font: 14px Arial, sans-serif; fill:#475569; }
+    .lane { fill:#f8fafc; stroke:#94a3b8; stroke-width:1.5; }
+    .lanehead { fill:#e2e8f0; stroke:#94a3b8; stroke-width:1.5; }
+    .lanetext { font: 700 16px Arial, sans-serif; fill:#1e293b; }
+    .task { fill:#ffffff; stroke:#2563eb; stroke-width:2; rx:12; }
+    .tasktext { font: 14px Arial, sans-serif; fill:#0f172a; text-anchor:middle; }
+    .gateway { fill:#fff7ed; stroke:#d97706; stroke-width:2.2; }
+    .event { fill:#ffffff; stroke:#15803d; stroke-width:3; }
+    .end { fill:#f0fdf4; stroke:#15803d; stroke-width:4; }
+    .flow { fill:none; stroke:#334155; stroke-width:2; marker-end:url(#arrow); }
+    .label { font: 13px Arial, sans-serif; fill:#334155; font-weight:700; }
+    .note { font: 12px Arial, sans-serif; fill:#64748b; }
+  </style>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="42" class="title">P-02: Zwrot sprzętu i weryfikacja stanu (TO-BE)</text>
+<text x="40" y="68" class="subtitle">SportRent · BPMN 2.0 — diagram procesu TO-BE</text>
+<rect x="30" y="95" width="1560" height="250" class="lane"/>
+<rect x="30" y="95" width="185" height="250" class="lanehead"/>
+<text x="122" y="225.0" class="lanetext" text-anchor="middle">Klient</text><rect x="30" y="345" width="1560" height="350" class="lane"/>
+<rect x="30" y="345" width="185" height="350" class="lanehead"/>
+<text x="122" y="525.0" class="lanetext" text-anchor="middle">Pracownik wypożyczalni</text><rect x="30" y="695" width="1560" height="365" class="lane"/>
+<rect x="30" y="695" width="185" height="365" class="lanehead"/>
+<text x="122" y="882.5" class="lanetext" text-anchor="middle">System SportRent</text><circle cx="260" cy="220" r="18" class="event"/><rect x="330" y="175" width="210" height="90" class="task"/><text x="435.0" y="202" class="tasktext">Zwróć sprzęt</text><text x="435.0" y="221" class="tasktext">w punkcie wypożyczalni</text><circle cx="650" cy="220" r="19" class="end"/><text x="246" y="188" class="label">Start</text><rect x="300" y="465" width="190" height="90" class="task"/><text x="395.0" y="492" class="tasktext">Odbierz sprzęt</text><text x="395.0" y="511" class="tasktext">od klienta</text><rect x="550" y="465" width="205" height="90" class="task"/><text x="652.5" y="492" class="tasktext">Znajdź wypożyczenie</text><text x="652.5" y="511" class="tasktext">i klienta w systemie</text><rect x="820" y="465" width="205" height="90" class="task"/><text x="922.5" y="492" class="tasktext">Sprawdź stan</text><text x="922.5" y="511" class="tasktext">techniczny sprzętu</text><polygon points="1120,472.0 1158.0,510 1120,548.0 1082.0,510" class="gateway"/><rect x="1230" y="405" width="190" height="90" class="task"/><text x="1325.0" y="432" class="tasktext">Zarejestruj</text><text x="1325.0" y="451" class="tasktext">uszkodzenie</text><rect x="1230" y="555" width="190" height="90" class="task"/><text x="1325.0" y="582" class="tasktext">Potwierdź zwrot</text><text x="1325.0" y="601" class="tasktext">bez uszkodzeń</text><circle cx="1515" cy="510" r="20" class="end"/><rect x="300" y="820" width="205" height="90" class="task"/><text x="402.5" y="847" class="tasktext">Wyświetl dane</text><text x="402.5" y="866" class="tasktext">wypożyczenia</text><rect x="570" y="820" width="205" height="90" class="task"/><text x="672.5" y="847" class="tasktext">Sprawdź termin</text><text x="672.5" y="866" class="tasktext">planowanego zwrotu</text><polygon points="900,827.0 938.0,865 900,903.0 862.0,865" class="gateway"/><rect x="1010" y="760" width="205" height="90" class="task"/><text x="1112.5" y="787" class="tasktext">Oznacz zwrot jako</text><text x="1112.5" y="806" class="tasktext">po terminie</text><rect x="1010" y="915" width="205" height="90" class="task"/><text x="1112.5" y="942" class="tasktext">Zapisz datę zwrotu</text><text x="1112.5" y="961" class="tasktext">i aktualny status</text><polygon points="1320,827.0 1358.0,865 1320,903.0 1282.0,865" class="gateway"/><rect x="1420" y="760" width="190" height="90" class="task"/><text x="1515.0" y="787" class="tasktext">Ustaw status</text><text x="1515.0" y="806" class="tasktext">„uszkodzony”</text><rect x="1420" y="915" width="190" height="90" class="task"/><text x="1515.0" y="942" class="tasktext">Ustaw status</text><text x="1515.0" y="961" class="tasktext">„dostępny”</text><path d="M278 220 H330" class="flow"/><path d="M540 220 H630" class="flow"/><path d="M435 265 V430 H395 V465" class="flow"/><path d="M490 510 H550" class="flow"/><path d="M755 510 H820" class="flow"/><path d="M1025 510 H1082" class="flow"/><text x="1042" y="490" class="label">Ocena stanu</text><path d="M1158 491 H1230 V450" class="flow"/><text x="1170" y="475" class="label">Uszkodzony</text><path d="M1158 529 H1230 V600" class="flow"/><text x="1170" y="555" class="label">Bez uszkodzeń</text><path d="M1420 450 H1470 V510 H1495" class="flow"/><path d="M1420 600 H1470 V510" class="flow"/><path d="M650 555 V770 H400 V820" class="flow"/><path d="M755 865 H862" class="flow"/><path d="M938 865 H1010" class="flow"/><text x="955" y="845" class="label">TAK — po terminie</text><path d="M900 903 V960 H1010" class="flow"/><text x="915" y="945" class="label">NIE — w terminie</text><path d="M1215 805 H1282 V827" class="flow"/><path d="M1215 960 H1282 V903" class="flow"/><path d="M1358 865 H1420 V805" class="flow"/><text x="1365" y="845" class="label">Uszkodzony</text><path d="M1358 903 H1420 V960" class="flow"/><text x="1365" y="940" class="label">Sprawny</text><path d="M1515 850 V510" class="flow"/><path d="M1515 1005 V530" class="flow"/><text x="30" y="1090" class="label">Brak automatycznych kar i przypomnień; ewentualne dalsze rozliczenie opóźnienia odbywa się poza zakresem tej wersji systemu.</text></svg>
