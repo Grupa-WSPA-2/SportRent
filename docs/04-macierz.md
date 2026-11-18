@@ -25,6 +25,7 @@ Jej celem jest zapewnienie, że każda potrzeba klienta znajduje odzwierciedleni
 
 ## 3. Historyjki użytkownika
 
+
 **US-01 — Sprawdzanie dostępności sprzętu**
 
 Jako klient chcę sprawdzić dostępność sprzętu, aby wiedzieć, czy mogę go wypożyczyć.
