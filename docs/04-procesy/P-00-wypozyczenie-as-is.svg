@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="540" viewBox="0 0 1600 540">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#475569"/></marker>
+  <style>
+    .lane{fill:#f8fafc;stroke:#64748b;stroke-width:1.5}
+    .lane2{fill:#f1f5f9;stroke:#64748b;stroke-width:1.5}
+    .task{fill:#fff;stroke:#334155;stroke-width:1.7;rx:10}
+    .event{fill:#fff;stroke:#15803d;stroke-width:3}
+    .end{fill:#fff;stroke:#b91c1c;stroke-width:4}
+    .gateway{fill:#fff7ed;stroke:#b45309;stroke-width:2}
+    .txt{font:15px Arial,sans-serif;fill:#0f172a;text-anchor:middle}
+    .small{font:13px Arial,sans-serif;fill:#334155;text-anchor:middle}
+    .laneLabel{font:bold 16px Arial,sans-serif;fill:#1e293b}
+    .flow{fill:none;stroke:#475569;stroke-width:2;marker-end:url(#arrow)}
+  </style>
+</defs>
+<rect x="80" y="80" width="1500" height="190" class="lane"/>
+<rect x="80" y="270" width="1500" height="230" class="lane2"/>
+<text x="95" y="105" class="laneLabel">Klient</text>
+<text x="95" y="295" class="laneLabel">Pracownik wypożyczalni</text>
+
+<!-- connectors behind nodes -->
+<path class="flow" d="M161 173 H205"/>
+<path class="flow" d="M350 173 H375 V375 H405"/>
+<path class="flow" d="M570 375 H625"/>
+<path class="flow" d="M790 375 H855"/>
+<path class="flow" d="M880 350 V182 H970"/>
+<path class="flow" d="M905 375 H940 V452 H970"/>
+<path class="flow" d="M1140 452 H1190"/>
+<path class="flow" d="M1215 425 V300 H487 V335"/>
+<path class="flow" d="M1240 450 H1380"/>
+<path class="flow" d="M1145 182 H1210"/>
+<path class="flow" d="M1395 182 H1470"/>
+
+<!-- nodes -->
+<circle cx="143" cy="173" r="18" class="event"/>
+<text x="143" y="215" class="small">Start</text>
+<rect x="205" y="135" width="145" height="75" class="task"/>
+<text x="277" y="164" class="txt"><tspan x="277">Zapytaj o sprzęt</tspan><tspan x="277" dy="20">i rozmiar</tspan></text>
+
+<rect x="405" y="335" width="165" height="80" class="task"/>
+<text x="487" y="365" class="txt"><tspan x="487">Sprawdź Excel</tspan><tspan x="487" dy="20">/ zeszyt</tspan></text>
+<rect x="625" y="335" width="165" height="80" class="task"/>
+<text x="707" y="365" class="txt"><tspan x="707">Sprawdź sprzęt</tspan><tspan x="707" dy="20">w magazynie</tspan></text>
+<polygon points="880,350 905,375 880,400 855,375" class="gateway"/>
+<text x="880" y="380" class="small">X</text>
+<text x="880" y="330" class="small">Dostępny?</text>
+
+<rect x="970" y="420" width="170" height="65" class="task"/>
+<text x="1055" y="447" class="txt"><tspan x="1055">Zaproponuj inny</tspan><tspan x="1055" dy="19">termin lub model</tspan></text>
+<polygon points="1215,425 1240,450 1215,475 1190,450" class="gateway"/>
+<text x="1215" y="455" class="small">X</text>
+<text x="1215" y="405" class="small">Akceptuje?</text>
+
+<rect x="970" y="145" width="175" height="75" class="task"/>
+<text x="1057" y="174" class="txt"><tspan x="1057">Wypisz umowę</tspan><tspan x="1057" dy="20">i pobierz opłatę</tspan></text>
+<rect x="1210" y="145" width="185" height="75" class="task"/>
+<text x="1302" y="174" class="txt"><tspan x="1302">Zapisz wypożyczenie</tspan><tspan x="1302" dy="20">i wydaj sprzęt</tspan></text>
+<circle cx="1398" cy="450" r="18" class="end"/>
+<text x="1398" y="490" class="small">Rezygnacja</text>
+<circle cx="1488" cy="183" r="18" class="end"/>
+<text x="1488" y="225" class="small">Wypożyczony</text>
+
+<!-- branch labels -->
+<text x="915" y="250" class="small">TAK</text>
+<text x="944" y="400" class="small">NIE</text>
+<text x="1260" y="435" class="small">NIE</text>
+<text x="850" y="290" class="small">TAK — ponowna weryfikacja</text>
+<text x="800" y="35" style="font:bold 22px Arial,sans-serif;fill:#0f172a">P-00: Wypożyczenie sprzętu i odzieży sportowej (AS-IS)</text>
+</svg>
