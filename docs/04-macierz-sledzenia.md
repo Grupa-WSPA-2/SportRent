@@ -1,6 +1,5 @@
 # Macierz śledzenia wymagań — SportRent
 
-**Wersja:** 0.2
 
 ## 1. Cel macierzy
 
