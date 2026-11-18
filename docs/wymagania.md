@@ -167,3 +167,5 @@ US-11 — Przegląd aktualnych wypożyczeń
 4. Wymagania dotyczące rezerwacji sprzętu z wyprzedzeniem, płatności, kaucji i automatycznych powiadomień nie zostały uwzględnione, ponieważ wymagają dodatkowego potwierdzenia.
 5. Priorytety MoSCoW mogą zostać zmienione po konsultacji z klientem i analizie procesów AS-IS / TO-BE.
 6. Kryteria Given/When/Then dotyczą wszystkich historyjek oznaczonych jako Must.
+
+   
