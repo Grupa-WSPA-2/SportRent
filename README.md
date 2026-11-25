@@ -25,3 +25,13 @@ Celem systemu jest ułatwienie sprawdzania dostępności sprzętu oraz obsługi 
 - Kyrylo Skliarov — Backend.
 - Andriy Rushchak — Frontend / UI.
 - Rostyslav Svistelnytskyi — Testowanie.
+
+## 2. Lista przypadków użycia
+
+| ID | Nazwa przypadku użycia | Aktor główny | Powiązane wymagania | Plik ze scenariuszem |
+| :--- | :--- | :--- | :--- | :--- |
+| **PU-01** | Przeglądanie katalogu i sprawdzanie dostępności sprzętu | Klient, Pracownik | WF-01, WF-02 | [scenariusze.md](./scenariusze.md#pu-01) |
+| **PU-02** | Rezerwacja sprzętu sportowego online | Klient | WF-03, WF-04 | [scenariusze.md](./scenariusze.md#pu-02) |
+| **PU-03** | Opłacenie rezerwacji i blokada kaucji | Klient, System płatności | WF-05, WNF-02 | [scenariusze.md](./scenariusze.md#pu-03) |
+| **PU-04** | Wydanie sprzętu w punkcie wypożyczalni | Pracownik | WF-06, WF-07 | [scenariusze.md](./scenariusze.md#pu-04) |
+| **PU-05** | Zwrot sprzętu, weryfikacja stanu i zwrot kaucji | Pracownik | WF-08, WF-09 | [scenariusze.md](./scenariusze.md#pu-05) |
