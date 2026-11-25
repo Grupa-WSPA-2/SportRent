@@ -18,23 +18,23 @@ Macierz umożliwia sprawdzenie, czy wszystkie wymagania zostały uwzględnione w
 
 ## 3. Macierz śledzenia wymagań funkcjonalnych
 
-| Potrzeba | Wymaganie | Historyjka użytkownika | MoSCoW | Proces |
-|---|---|---|---|---|
-| N-01 | FR-01 | US-01 | Must | P-01 |
-| N-01 | FR-02 | — | Should | P-01 |
-| N-02 | FR-03 | US-02 | Must | P-01 |
-| N-02 | FR-04 | — | Should | P-01 |
-| N-03 | FR-05 | US-03 | Must | P-03 |
-| N-03 | FR-06 | US-04 | Must | P-03 |
-| N-01, N-03 | FR-07 | US-05 | Must | P-01, P-02, P-03 |
-| N-04 | FR-08 | US-06 | Must | P-01 |
-| N-04 | FR-09 | US-07 | Must | P-01 |
-| N-06 | FR-10 | US-07 | Must | P-01 |
-| N-05 | FR-11 | US-08 | Must | P-02 |
-| N-01, N-05 | FR-12 | US-09 | Must | P-02 |
-| N-07 | FR-13 | US-10 | Must | P-02 |
-| N-08 | FR-14 | — | Should | P-02 |
-| N-04, N-06 | FR-15 | US-11 | Must | P-01, P-02 |
+| Potrzeba | Wymaganie | Historyjka użytkownika | MoSCoW | Proces | PU |
+|---|---|---|---|---|---|
+| N-01 | FR-01 | US-01 | Must | P-01 | PU-01 |
+| N-01 | FR-02 | — | Should | P-01 | PU-01 |
+| N-02 | FR-03 | US-02 | Must | P-01 | PU-01 |
+| N-02 | FR-04 | — | Should | P-01 | PU-01 |
+| N-03 | FR-05 | US-03 | Must | P-03 | PU-06 |
+| N-03 | FR-06 | US-04 | Must | P-03 | PU-06 |
+| N-01, N-03 | FR-07 | US-05 | Must | P-01, P-02, P-03 | PU-04, PU-05, PU-06 |
+| N-04 | FR-08 | US-06 | Must | P-01 | PU-02, PU-04 |
+| N-04 | FR-09 | US-07 | Must | P-01 | PU-02, PU-04 |
+| N-06 | FR-10 | US-07 | Must | P-01 | PU-02, PU-04 |
+| N-05 | FR-11 | US-08 | Must | P-02 | PU-05 |
+| N-01, N-05 | FR-12 | US-09 | Must | P-02 | PU-05 |
+| N-07 | FR-13 | US-10 | Must | P-02 | PU-05 |
+| N-08 | FR-14 | — | Should | P-02 | PU-05 |
+| N-04, N-06 | FR-15 | US-11 | Must | P-01, P-02 | PU-04, PU-05 |
 
 ## 4. Macierz śledzenia wymagań niefunkcjonalnych
 
@@ -81,7 +81,7 @@ Wymagania niefunkcjonalne dotyczą jakości i sposobu działania całego systemu
 
 ## 7. Podsumowanie
 
-Macierz śledzenia wymagań przedstawia powiązania pomiędzy potrzebami użytkowników, wymaganiami funkcjonalnymi i niefunkcjonalnymi, regułami biznesowymi, historyjkami użytkownika oraz procesami biznesowymi.
+Macierz śledzenia wymagań przedstawia powiązania pomiędzy potrzebami użytkowników, wymaganiami funkcjonalnymi i niefunkcjonalnymi, regułami biznesowymi, historyjkami użytkownika, przypadkami użycia (PU) oraz procesami biznesowymi.
 
 Dzięki macierzy możliwe jest sprawdzenie kompletności wymagań oraz kontrolowanie ich realizacji na kolejnych etapach projektu SportRent.
 
